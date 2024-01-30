@@ -1,0 +1,15 @@
+ /* Estilo para las celdas */
+ .table, .table th, .table td {
+    border: 1px solid #ddd; /* Borde de 1 píxel, color gris claro */
+    padding: 8px; /* Espaciado interno de las celdas */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+.table{
+    border-radius: 20px;
+}
+ 
+/* Estilo para las filas impares (opcional) */
+.table tr:nth-child(odd) {
+    background-color: #d86060; /* Fondo gris claro para filas impares */
+}
